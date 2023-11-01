@@ -11,7 +11,6 @@ a{
 
 .menu li{
     list-style: none;
-    font-display:block;
     background-color: aqua;
 }
     
@@ -37,4 +36,27 @@ flex: 0 0 auto;
 >menu ul{
     display: flex;
     justify-content: space-around;
+}
+
+
+.forma{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 30px;
+}
+
+.button{
+    background: cornflowerblue;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
