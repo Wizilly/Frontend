@@ -38,8 +38,8 @@ function validForm(){
         alert("Ошибка в поле Фио");
        
        }
-    if(reg_password.tes(password) == false){
-        alert("Ошибка в поле пароль")ж
+    if(reg_password.test(password) == false){
+        alert("Ошибка в поле пароль");
     }
 }
 
